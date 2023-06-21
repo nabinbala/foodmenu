@@ -1,0 +1,401 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Grand Hotel', cursive;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    padding: 50px 0px 80px;
+    background: url("../img/Group\ 1.png") center top no-repeat;
+    background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 25px 0px 10px;
+}
+.header .icon-search{
+    color: #fff;
+    margin: 0px 0px 0px 20px;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .inner-banner{
+    width: 100%;
+    padding: 60px 0px;
+    text-align: left;
+}
+.banner .inner-banner h1{
+    color: #ffc200;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.banner .inner-banner p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+.banner .inner-banner .batton-group .btn-warning{
+    padding: 10px 32px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    background: #ffc200;
+    border-radius: 1px solid #ffc200;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.banner .inner-banner .batton-group .btn-warning:hover{
+    color: #ffc200;
+    background: transparent;
+    border-radius: 1px solid #ffc200;
+}
+.banner .inner-banner .batton-group .btn-warning:focus{
+    color: #ffc200;
+    background: transparent;
+    border-radius: 1px solid #ffc200;
+}
+.choose{
+    width: 100%;
+    padding: 80px 0px;
+}
+.taitle{
+    text-align: center;
+}
+.choose .taitle h1{
+    font-size: 80px;
+    color: #333;
+}
+.taitle p{
+    font-size: 20px;
+    line-height: 1.7em;
+    margin: 0px 0px 60px 0px;
+}
+.choose .owl-carousel .item h4{
+    font-size: 32px;
+    color: #2f2f2f;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+.choose .owl-carousel .item p{
+    font-size: 14px;
+    color: #2f2f2f;
+    font-weight: 500;
+}
+
+.choose .owl-theme .owl-dots .owl-dot span{
+    background: transparent;
+    border: 1px solid #0004ff;
+}
+.choose .choose .owl-theme .owl-dots .owl-dot span .owl-theme .owl-dots .owl-dot.active span{
+    background: #0004ff;
+    border: 1px solid #0004ff;
+    width: 15px;
+    height: 15px;
+    margin: 2px 7px;
+}
+.choose .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0004ff;
+  }
+  .Oriental{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../img/design\ 3.png) center top no-repeat;
+    background-size: cover;
+  }
+
+  .Oriental .taitle{
+    padding: 80px 0px;
+    text-align: left;
+  }
+  .taitle h1{
+    font-size: 82px;
+    color: #ffc200;
+    font-weight: 500;
+    margin: 20px 0px;
+  }
+  .Oriental .taitle p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 20px 0px;
+  }
+  .Oriental .taitle .batton-group .btn-warning{
+    padding: 10px 32px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2f2f2f;
+    background: #ffc200;
+    border-radius: 1px solid #ffc200;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.Oriental .taitle .batton-group .btn-warning:hover{
+    color: #ffc200;
+    background: transparent;
+    border-radius: 1px solid #ffc200;
+}
+.Oriental .taitle .batton-group .btn-warning:focus{
+    color: #ffc200;
+    background: transparent;
+    border-radius: 1px solid #ffc200;
+}
+
+/* COunter Css */
+
+.counter_sec{
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background: url(../img/Design\ 1.png) no-repeat center;
+    background-size: cover;
+    background-color: #333;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 999;
+
+}
+.counter_item{
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    text-align: center;
+    color: #ffc200;
+    border-radius: 100%;
+    position: relative;
+    margin:auto !important;
+
+}
+.counter_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter_content h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+.counter_content p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+.Oriental2{
+    padding-top: 470px;
+    padding-bottom: 200px;
+    /* margin-top: -100px; */
+    background: url(../img/Design\ 2.png) center top no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .Oriental2 img{
+    padding-top: 150px;
+  }
+.Oriental2 .taitle .batton-group .btn-warning{
+    padding: 10px 32px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2f2f2f;
+    background: #ffc200;
+    border-radius: 1px solid #ffc200;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.Oriental2 .taitle .batton-group .btn-warning:hover{
+    color: #ffc200;
+    background: transparent;
+    border-radius: 1px solid #ffc200;
+}
+.Oriental2 .taitle .batton-group .btn-warning:focus{
+    color: #ffc200;
+    background: transparent;
+    border-radius: 1px solid #ffc200;
+}
+
+.image-here{
+    position: absolute;
+    top: 400px;
+}
+
+.Subscribe{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../img/Designs.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.Subscribe .taitle h1{
+    font-size: 82px;
+    color: #333;
+}
+.box{
+    width: 100%;
+    padding: 80px 0px;
+    margin: -80px 0px 120px 0px;
+}
+.Subscribe .box .form-box{
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.Subscribe .box .form-box input{
+    font-size: 18px;
+    color: #000;
+    padding: 10px 60px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+.Subscribe .box .form-box button{
+   font-size: 22px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   padding: 5px 10px;
+   text-transform: uppercase;
+    background: #ffc200;
+    border-radius: 1px solid #ffc200;
+    color: #333331;
+    border-radius: 2px;
+}
+.Subscribe .box .form-box button:hover{
+    background: transparent;
+    borde   : 1px solid #ffc200;
+    color: #ffc200;
+}
+.Subscribe .box .form-box button:focus{
+    background: transparent;
+    border: 1px solid #ffc200;
+    color: #ffc200;
+}
+
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: #000;
+}
+.footer .taitle{
+    text-align: left;
+}
+.footer .taitle h3{
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer .taitle p{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.course{
+    width: 100%;
+    padding: 10px 0px;
+}
+.course li{
+    list-style: none;
+    display: block;
+    
+}
+.course li a{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+}
+.course li .active{
+    font-weight: 700;
+}
+.copyright{
+    width: 100%;
+    padding: 60px 0px 20px;
+}
+.copyright p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+    text-align: center;
+}
+
+.socile-icons{
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 0px;
+}
+.socile-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.socile-icons li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #08c;
+    color: #fff;
+    line-height: 35px;
+    border: 1px solid #08c;
+    font-size: 20px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+    text-align: center;
+}
+.socile-icons li a:hover{
+    background: transparent;
+    color: #08c;
+    border: 1px solid #08c;
+}
+.socile-icons li a:focus{
+    background: transparent;
+    color: #08c;
+    border: 1px solid #08c;
+}
+
